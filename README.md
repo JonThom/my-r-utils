@@ -1,11 +1,10 @@
-# r-pkg-list
+# my R utils
+Various utilities for R: 
 
-Machine-readable annotated list of useful R packages, with tags for querying.
-Not exhaustive, biased towards bioinformatics.
-
-* [ ] todo: complete listing of packages from R bloggers
+* Machine-readable annotated list of useful R packages (not exhaustive, biased towards bioinformatics)
 
 ## sources
+### packages
 * [awesome-R](https://github.com/qinwf/awesome-R)
 * [tomaztsql, R bloggers, Essential list of useful R packages for data scientists](https://www.r-bloggers.com/2020/04/essential-list-of-useful-r-packages-for-data-scientists/)
 * [Sharon Machlis,Great R packages for data import, wrangling, and visualization](https://www.computerworld.com/article/2921176/great-r-packages-for-data-import-wrangling-visualization.html)
