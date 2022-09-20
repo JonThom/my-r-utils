@@ -1,0 +1,199 @@
+package	repo	description	tags
+Seurat	CRAN	single cell omics analysis	bioinformatics,scRNAseq
+DESeq2	BioConductor	Differential gene expression analysis based on the negative binomial distribution	bioinformatics,RNAseq
+dplyr	CRAN	Fast data frames manipulation and database query	wrangling
+data.table	CRAN	Fast data manipulation in a short and flexible syntax	io,wrangling,data_analysis
+reshape2	CRAN	Flexible rearrange reshape and aggregate data	wrangling
+tidyr	CRAN	Easily tidy data with spread and gather functions	wrangling
+broom	CRAN	Convert statistical analysis objects into tidy data frames	wrangling
+rlist	CRAN	A toolbox for non-tabular data manipulation with lists	wrangling
+lubridate	CRAN	A set of functions to work with dates and times	wrangling
+stringi	CRAN	ICU based string processing package	wrangling
+stringr	CRAN	Consistent API for string processing built on top of stringi	wrangling
+bigmemory	CRAN	Shared memory and memory-mapped matrices. The big* packages provide additional tools including linear models (biglm) and Random Forests (bigrf)	data_analysis
+fuzzyjoin	CRAN	Join tables together on inexact matching	wrangling
+tidyverse	CRAN	Easily install and load packages from the tidyverse	wrangling
+snakecase	CRAN	Automatically parse and convert strings into cases like snake or camel among others	wrangling,utility
+DataExplorer	CRAN	Fast exploratory data analysis with minimum code	exploration,plotting
+SmartEDA	CRAN	data exploration - generate a complete HTML report	summary
+tableone	CRAN	producing the typical Table 1 (hence the name) from research publications	summary
+Hmisc	CRAN	functions to describe data as well as utility functions	exploration,summary,utility
+sqldf	CRAN	Run SQL queries on your data frame	exploration,data_analysis
+splitstackshape	CRAN	separate columns with multiple comma separated items into new data frame rows	wrangling
+validate	CRAN	Intuitive data validation based on rules you can define save and re-use	cleaning
+paint	https://milesmcbain.r-universe.dev	better print methods for dataframe like objects	data_analysis exploration,summary
+diffobj	CRAN	Diffs for R Objects	data_analysis exploration
+dataCompareR	CRAN	allows users to compare two datasets and view a report on the similarities and differences	exploration
+datapack	CRAN	provides an abstraction for collating multiple data objects of different types and metadata describing those objects into a bundle that can be transported and loaded using a single composite file. It is primarily meant as a container to bundle together files for transport to or from DataONE data repositories	wrangling
+skimr	CRAN	data summary. It is adept at handling both categorical and numeric data	exploration,summary
+summarytools	CRAN	data summary	exploration,summary
+pastecs	CRAN	data summary	time_series,summary
+psych	CRAN	data summary	exploration,summary
+hablar	CRAN	Simple tools for converting columns to new data types. Intuitive functions for columns with missing values	wrangling,cleaning
+janitor	CRAN	Simple Tools for Examining and Cleaning Dirty Data	exploration,wrangling,cleaning
+outliers	CRAN	A collection of some tests commonly used for identifying outliers	exploration,data_analysis,cleaning
+frequency	CRAN	Generate SPSS/SAS styled frequency tables	exploration,summary
+missForest	CRAN	The function missForest is used to impute missing values particularly in the case of mixed-type data	imputation
+Amelia	CRAN	A tool that multiply imputes missing data in a single cross-section (such as a survey) from a time series	imputation,time_series
+mice	CRAN	Multivariate Imputation by Chained Equations	imputation
+VIM	CRAN	Visualization and Imputation of Missing Values	exploration,imputation
+mi	CRAN	Missing Data Imputation and Model Checking	imputation
+wrangle	CRAN	Supports systematic scrutiny modification and integration of data	wrangle
+tibble	CRAN	alternative to dataframes used in tidyverse	wrangle,utility
+devtools	CRAN	various	development
+R6	CRAN	simpler faster lighter-weight alternative to Rs built-in classes	dev
+pryr	CRAN	Make it easier to understand whats going on in R	dev,performance
+lineprof	CRAN	profiling	development,performance
+recover	CRAN	exception handling	development
+git2r	CRAN	Gives you programmatic access to Git repositories from R	development,git
+usethis	CRAN	includes useful functions for any coding project, e.g. update your .Renvironment and .Rprofile files	development
+Shiny	CRAN	web dashboard	web,plot
+flexdashboard	CRAN	web dashboard	web,plot
+roxygen2	CRAN	create documentation	docs,development
+staticdocs	CRAN	Generate static html documentation for an R package	docs,development
+sinew	CRAN	Generate roxygen2 skeletons populated with information scraped from the function script	docs,development
+arrow	CRAN	An interface to the Arrow C++ library	io
+fst	CRAN	Lightning Fast Serialization of Data Frames for R	io
+haven	CRAN	Improved methods to import SPSS Stata and SAS files in R	io
+jsonlite	CRAN	A robust and quick way to parse JSON files in R	io
+qs	CRAN	Quick serialization of R objects	io
+readxl	CRAN	Read excel files (.xls and .xlsx) into R	io
+openxlsx	CRAN	read and write xlsx	io
+tidyxl	CRAN	import and wrangling	io
+readr	CRAN	A fast and friendly way to read tabular data into R	io
+rio	CRAN	A Swiss-Army Knife for Data I/O	io
+readODS	CRAN	Read OpenDocument Spreadsheets into R as data.frames	io
+RcppTOML	CRAN	Rcpp Bindings to C++ parser for TOML files	io
+vroom	CRAN	Fast reading of delimited files	io
+writexl	CRAN	Portable light-weight data frame to xlsx exporter for R	io
+yaml	CRAN	R package for converting objects to and from YAML	io
+data.table	CRAN	parallel table i/o	io,data_analysis
+datapasta	CRAN	RStudio addins and R functions that make copy-pasting vectors and tables to text painless	io,utility
+reticulate	CRAN	suite of tools for calling Python from within R as well as translating between R and Python objects such as Pandas data frames and R data frames	languageAPI,python
+rpy2	CRAN	Python	languageAPI,python
+logging	CRAN	A logging package emulating the python logging package	logging,development
+caret	CRAN	Classification and Regression Training	ML,regression,validation
+tree	CRAN	Title Classification and Regression Trees	ML,classification,regression,validation
+e1071	CRAN	Functions for latent class analysis, short time Fourier transform, fuzzy clustering, support vector machines, shortest path computation, bagged clustering, naive Bayes classifier, generalized k-nearest neighbour,more	ML,regression,classification,bayesian,clustering,validation
+crossval	CRAN	Generic functions for performing cross validation and for computing diagnostic errors	validation
+elasticnet	CRAN	Elastic-Net for Sparse Estimation and Sparse PCA	ML
+tidymodels	CRAN	A collection of packages for modeling and statistical analysis that share the underlying design philosophy grammar and data structures of the tidyverse	ML,regression,utility
+lme4	CRAN	Generalized mixed-effects models	ML,mixed_models,regression
+nlme	CRAN	Mixed-effects models handling user-specified matrix of residual covariance relevant for the anaysis of repeated observations in longitudinal trials	ML,mixed_models,regression
+mlr3	CRAN	ML package that supports Object-Oriented programming with R6 objects	ML,development
+xgboost	CRAN	gradient boosting	ML
+forecast	CRAN	time series and linear models	ML,time_series,regression
+mgcv	CRAN	Generalized additive (mixed) models some of their extensions and other generalized ridge regression with multiple smoothing parameter estimation by (Restricted) Marginal Likelihood Generalized Cross Validation and similar or using iterated nested Laplace approximation for fully Bayesian inference	ML,mixed_models,regression
+zoo	CRAN	time series	ML,time_series
+igraph	CRAN	network analysis	networks,plot
+tidygraph	CRAN	network manipulation	networks,plot
+pacman	CRAN	an R package management tool that combines the functionality of base library related functions into intuitively named functions	package_management
+renv	CRAN	package management	package_management
+jetpack	CRAN	package management	package_management
+parallel	CRAN	r base parallelisation library	parallel
+foreach	CRAN	Executing the loop in parallel	parallel
+ddR	CRAN	Provides distributed data structures and simplifies distributed computing in R	parallel
+foreach	CRAN	Executing the loop in parallel	parallel
+future	CRAN	minimal efficient cross-platform unified Future API for parallel and distributed processing in R	parallel
+furrr	CRAN	future+purrr	functional_programming,parallel
+Rcpp11	CRAN	Rcpp provides a powerful API on top of R makes function in R extremely faster. Rcpp11 is a complete redesign of Rcpp targetting C++11	performance,development
+compiler	CRAN	speeding up your R code using the JIT	performance,development
+cpp11	CRAN	cpp11 is a header-only R package that helps R package developers handle R objects with C++ code. Similar to Rcpp but with different design trade-offs and features	performance,development
+ggplot2	CRAN	An implementation of the Grammar of Graphics	plot
+ggfortify	CRAN	A unified interface to ggplot2 popular statistical packages using one line of code	plot,statistics
+ggrepel	CRAN	Repel overlapping text labels away from each other	plot
+ggalt	CRAN	Extra Coordinate Systems Geoms and Statistical Transformations for ggplot2	plot
+ggstatsplot	CRAN	ggplot2 Based Plots with Statistical Details	plot,statistics
+ggtree	CRAN	Visualization and annotation of phylogenetic tree	plot,dendrogram
+lattice	CRAN	A powerful and elegant high-level data visualization system	plot
+corrplot	CRAN	A graphical display of a correlation matrix or general matrix. It also contains some algorithms to do matrix reordering	plot,statistics
+Cairo	CRAN	R graphics device using cairo graphics library for creating high-quality display output	plot
+gganimate	CRAN	Create easy animations with ggplot2	plot
+hrbrthemes	CRAN	Opinionated typographic-centric ggplot2 themes and theme components	plot
+dendextend	CRAN	visualizing adjusting and comparing trees of hierarchical clustering	plot,dendrogram
+idendro	CRAN	interactive exploration of dendrograms (trees of hierarchical clustering)	plot,dendrogram
+patchwork	CRAN	Compose several ggplots into panels	plot
+ComplexHeatmap	BioConductor	provides a highly flexible way to arrange multiple heatmaps and supports various annotation graphics	plot
+pheatmap	CRAN	Pretty heatmaps	plot
+eulerr	CRAN	Make Euler diagrams - i.e. well-proportioned Venn diagrams	plot
+ggthemes	CRAN	themes for ggplot2	plot
+ggpubr	CRAN	publication-ready themes for ggplot2	plot
+wesanderson	CRAN	Wes Anderson-inspired colour palettes	plot
+RColorBrewer	CRAN	palettes	plot
+ggally	CRAN	extends ggplot2 with features to automatically visualise datasets	plot,exploration
+plotly	CRAN	plotting framework	plot
+paletteer	CRAN	palettes	plot
+ggforce	CRAN	extension package for ggplot2	plot
+scales	CRAN	provides the internal scaling infrastructure used by ggplot2 and gives you tools to override the default breaks labels transformations and palettes	plot
+lintr	CRAN	linting	linting,style
+magrittr	CRAN	Let's pipe it	syntax,pipe
+pipeR	CRAN	Multi-paradigm Pipeline Implementation	syntax,pipe
+lambda.r	CRAN	Functional programming and simple pattern matching in R	syntax  vectorization,functional_programming
+purrr	CRAN	A FP package for R in the spirit of underscore.js	syntax,vectorization,functional_programming
+glue	CRAN	Main function glue evaluates variables and R expressions within a quoted string as long as they are enclosed by {} braces. This makes for an elegant paste() replacement	syntax,utility
+testthat	CRAN	testing	testing,development
+covr	CRAN	test coverage	testing,coverage,development
+XML	CRAN	Tools for parsing and generating XML within R	web,serialization
+xml2	CRAN	Optimized tools for parsing and generating XML within R	web,serialization
+httr	CRAN	tools for http connections	web,networking
+workflowr	CRAN	organized + reproducible + shareable data science in R	workflow,git,markdown,project
+targets	CRAN	pipeline	workflow,pipeline
+here	CRAN	use paths relative to project root	workflow
+rpart	CRAN	Recursive partitioning for classification, regression and survival trees	ML,regression,validation
+bcv	CRAN	R package for performing Bi-Cross-Validation of an SVD	validation,matrix_factorisation
+klaR	CRAN	Miscellaneous functions for classification and visualization, e.g. regularized discriminant analysis, sknn() kernel-density naive Bayes, an interface to 'svmlight' and stepclass() wrapper variable selection for supervised classification, partimat() visualization of classification rules and shardsplot() of cluster results as well as kmodes() clustering for categorical data, corclust() variable clustering, variable extraction from different variable clustering models and weight of evidence preprocessing	ML,clustering,classification,bayesian,regression,validation
+EnsembleCV	CRAN	Extensible Package for Cross-Validation-Based Integration of Base Learners	ML,validation
+gencve	CRAN	General Cross Validation Engine	ML,validation
+cvAUC	CRAN	Tools for working with and evaluating cross-validated area under the ROC curve (AUC) estimators	ML,classification,validation
+CVThresh	CRAN	Level-Dependent Cross-Validation Thresholding	ML,bayesian,validation
+cvTools	CRAN	Tools that allow developers to write functions for cross-validation with minimal programming effort and assist users with model selection.	ML,validation
+dcv	CRAN	Conventional Cross-validation statistics for climate-growth model	ML,validation
+cvms	CRAN	Cross-Validation for Model Selection 	ML,classification,regression,validation
+blockCV	CRAN	Spatial and Environmental Blocking for K-Fold Cross-Validation	ML,regression,validation
+nnet	CRAN	neural networks	neural_nets,ML
+gnn	CRAN	neural networks	neural_nets,ML
+rnn	CRAN	neural networks	neural_nets,ML
+spnn	CRAN	neural networks	neural_nets,ML
+brnn	CRAN	neural networks	neural_nets,ML
+RSNNS	CRAN	neural networks	neural_nets,ML
+AMORE	CRAN	neural networks	neural_nets,ML
+simpleNeural	CRAN	neural networks	neural_nets,ML
+ANN2	CRAN	neural networks	neural_nets,ML
+yap	CRAN	neural networks	neural_nets,ML
+yager	CRAN	neural networks	neural_nets,ML
+deep	CRAN	neural networks	neural_nets,ML
+neuralnet	CRAN	neural networks	neural_nets,ML
+nnfor	CRAN	neural networks	neural_nets,ML
+TeachNet	CRAN	neural networks	neural_nets,ML
+deepnet	CRAN	deep learning	neural_nets,ML
+RcppDL	CRAN	deep learning	neural_nets,ML
+tensorflow	CRAN	deep learning	neural_nets,ML
+h2o	CRAN	deep learning	neural_nets,ML
+kerasR	CRAN	deep learning	neural_nets,ML
+deepNN	CRAN	deep learning	neural_nets,ML
+Buddle	CRAN	deep learning	neural_nets,ML
+automl	CRAN	deep learning	neural_nets,ML
+RLT	CRAN	reinforcement learning	reinforcement_learning,ML
+ReinforcementLearning	CRAN	reinforcement learning	reinforcement_learning,ML
+MDPtoolbox	CRAN	reinforcement learning	reinforcement_learning,ML
+Local	CRAN	Interpretable Model-Agnostic Explanations (lime) CRAN explaining the outcome of black box models	model_explanation,ML
+localModel	CRAN	LIME-Based Explanations with Interpretable Inputs Based on Ceteris Paribus Profiles	model_explanation,ML
+iml	CRAN	Interpretable Machine Learning 	model_explanation,ML
+EIX	CRAN	Explain Interactions in XGBoost	model_explanation,ML
+flashlight	CRAN	Shed light on black box machine learning models by the help of model performance, variable importance, global surrogate models, ICE profiles, partial dependencw	model_explanation,ML
+interpret	CRAN	Microsoft Research has developed an algorithm called the Explainable Boosting Machine (EBM) which has both high accuracy and interpretable characteristics	model_explanation,ML
+outliertree	CRAN	Outlier detection method that flags suspicious values within observations, constrasting them against the normal values in a user-readable format	model_explanation,ML
+breakDown	CRAN	"The	breakDown	package	is	a	model	agnostic	tool	for	decomposition	of	predictions	from	black	boxes.	Break	Down	Table	shows	contributions	of	every	variable	to	a	final	prediction.	Break	Down	Plot	presents	variable	contributions	in	a	concise	graphical	way.	This	package	works	for	binary	classifiers	and	general	regression	models.	model_explanation,ML"	model_explanation,ML
+NMF	CRAN	Provides a bunch of functions, including one for regularised NMF	matrix_factorisation,data_analysis
+FABIA	?	Factor Analysis for Bicluster Acquisition CRAN Biclustering by Factor Analysis for Bicluster Acquisition (FABIA). FABIA is a model-based technique for biclustering, that is clustering rows and columns simultaneously matrix_factorisation,data_analysis	matrix_factorisation,data_analysis
+rNMF	?	robust NMF	matrix_factorisation,data_analysis
+Non-negative	?	Factorization-based Immune-TUmor MIcroenvironment Deconvolution (NITUMID) CRAN Current version of NITUMID only supports tumor microenvironment deconvolution for bulk melanoma data matrix_factorisation,bioinformatics,data_analysis	matrix_factorisation,data_analysis
+rsparse	?	Fast and accurate machine learning on sparse matrices - matrix factorizations, regression, classification, top-N recommendations	matrix_factorisation,regression,data_analysis
+diceR	?	NA	matrix_factorisation,data_analysis
+SWNE	?	Weighted Nonnegative Embedding (SWNE) CRAN Adaptation of Onco-GPS with mapping to low dimensions using Salmon mapping	matrix_factorisation,bioinformatics,plot,data_analysis
+fastICA	?	ICA	matrix_factorisation,data_analysis
+matrix_factorisation,bioinformatics,data_integration,data_analysis	?	matrix_factorisation,bioinformatics,data_integration,data_analysis	matrix_factorisation,data_analysis
+MOFAtools	?	MOFA is a factor analysis model that provides a general framework for the integration of multi-omic data sets in a completely unsupervised fashion	matrix_factorisation,bioinformatics,data_integration,data_analysis
+ccfindR	?	single-cell RNA-seq analysis using Bayesian non-negative matrix factorization	matrix_factorisation,bioinformatics,data_analysis
+scCOGAPS	?	matrix factorisation, data integration	matrix_factorisation,bioinformatics,data_integration,data_analysis
+LIGER	?	Single-Cell Multi-omic Integration Compares and Contrasts Features of Brain Cell Identity 	matrix_factorisation,bioinformatics,data_integration,data_analysis
