@@ -2,7 +2,7 @@
 Various utilities for R: 
 
 * Machine-readable annotated list of useful R packages (not exhaustive, biased towards bioinformatics)
-
+P
 ## sources
 ### packages
 * [awesome-R](https://github.com/qinwf/awesome-R)
